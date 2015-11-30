@@ -10,17 +10,28 @@
 		h1 {color: #006600 ; font-size: 38pt ; font-family: Britannic Bold ; text-align: center }
 		button { text-align: center; color: #990000 ; display: block ; margin-left: auto ; margin-right: auto}
 		.right {float:right} 
+		.container1 {width: 1200px;  /* Centering for IE6+ in strict mode, Firefox, and other modern browsers */margin: auto;
+		/* Don't center every line of text - we inherited this setting from body */text-align: left;}
+		.container2 {width: 1200px;  /* Centering for IE6+ in strict mode, Firefox, and other modern browsers */margin: auto;
+		/* Don't center every line of text - we inherited this setting from body */text-align: left;}
+		.container3 {width: 1200px;  /* Centering for IE6+ in strict mode, Firefox, and other modern browsers */margin: auto;
+		/* Don't center every line of text - we inherited this setting from body */text-align: left;}
+		.container4 .container3 {width: 1200px;  /* Centering for IE6+ in strict mode, Firefox, and other modern browsers */margin: auto;
+		/* Don't center every line of text - we inherited this setting from body */text-align: left;}
+		.container5 .container3 {width: 1200px;  /* Centering for IE6+ in strict mode, Firefox, and other modern browsers */margin: auto;
+		/* Don't center every line of text - we inherited this setting from body */text-align: left;}
+		.intro {display: block ; margin-left: auto ; margin-right: auto}
 		.div_image img {padding-bottom: 15px ; display: block ; margin-left: auto ; margin-right: auto}
 		a {float: left}
-		.definition { position: relative ; float: left ; width: 48% ; border-style: solid ; background-color: #006600 ; color: #CCCC00 ; font-size: 18pt ; border-color: #CCCC00}
-		.definition2 { position: relative ; float: right ; width: 48% ; border-style: solid ; background-color: #006600 ; color: #CCCC00 ; font-size: 18pt ; border-color: #CCCC00}
+		.definition { float: left ; width: 48% ; border-style: solid ; background-color: #006600 ; color: #CCCC00 ; font-size: 18pt ; border-color: #CCCC00}
+		.definition2 { float: right ; width: 48% ; border-style: solid ; background-color: #006600 ; color: #CCCC00 ; font-size: 18pt ; border-color: #CCCC00}
 		h2 {font-size: 18pt ; text-align: center ; position: relative; height: 50% ; width: 100%; float: left}
 		td {vertical-align: top ; background-color: #FFFFCC ; text-align: center}
 		table {position:relative ; border-spacing: 0.5rem ; width: 70% ; height: 50% ; background-color: #009900; }
 		th {text-align: center ; background-color: #FFFFCC ; font-style: bold ; font-size: 18pt}
 		ul {text-align: left}
 		.red {color: #CC0000}
-		.question { position: relative ; float:left; width: 400px; font-size: 18pt ; font-style: bold}
+		.question { position: absolute ; float:left; padding: 0px 10px 40px 60px; width: 400px; font-size: 18pt ; font-style: bold}
 		.answer {display:none }
 		.answer p {color: #990000}
 		.show {display: none; }
@@ -39,7 +50,7 @@
 	</style>
 </head>
 <body>
-<div class="cotainer">
+<div class="container">
 <div>
 		<a href="http://www.animateit.net"> 
 		<img src="http://www.animateit.net/data/media/184/tennisracket.gif" alt="Tennis Racket from AnimateIt.net"> </a>
@@ -60,6 +71,8 @@
 		intense but this is the excitement and innervation stimulated by a simple game
 		of <b style="color: #006600 ; font-size: 16pt"> tennis </b> . </p>
 </div>
+</div>
+<div class="container1">
 <div class="question">
 	<a href="#hide1" class="hide" id="hide1" style="color: #006600"> And click to find out what's even better...
 	</a>
@@ -71,6 +84,8 @@
 <div class="div_image">	
 		<img src="old.jpg" alt="text" width="145" height="124.8">
 </div>
+</div>
+<div class="container2">
 <div class="definition">
 	<dl> 
 		<dt style="font-weight: bold"> <em> Tennis </em> </dt>
@@ -85,6 +100,8 @@
 			including when waiting for your oponent to return the ball. </dd>
 	</dl>
 </div>
+</div>
+<div class="container3">
 <h2> Pros/Cons of Being A Tennis Player </h2>
 <table style="margin: auto">
 		<tr> <th> Pros <th class="red"> Cons </th> </tr>
@@ -126,6 +143,8 @@
 			<td> 
 		</tr>
 </table>
+</div>
+<div class="container4">
 <div class="bubble">
 <div class= "arrow bottom">
 </div>
@@ -145,6 +164,8 @@
 <div class="person">
 	<img src="person.jpg" alt="text" width="130" height="125.8">
 </div>
+</div>
+<div class="container5">
 <div class="goals">
 	<form action="">
 		<fieldset> 
